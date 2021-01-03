@@ -8,9 +8,10 @@ import Counter from "./components/Counter";
 import Time from "./components/Time";
 import Events from "./components/Events";
 import Forms from "./components/Forms";
-
+import TodoList from  "./components/TodoList"
 import ToDo from './components/ToDo'
 import { propTypes } from 'react-bootstrap/esm/Image';
+import Inc from './components/Inc'
 // import item from "./components/ToDo"
 
 // function CallC(val){
@@ -24,14 +25,17 @@ import { propTypes } from 'react-bootstrap/esm/Image';
 // }
      {/* {Data.map(CallC)};  */}
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <ToDo />
+    {/* <ToDo /> */}
+    <TodoList />
+    {/* <Inc /> */}
 {/* <h1 className="head">The Slot Machine 🎰</h1>
 <Slot x='😏' y='😏' z='😄' />
 <Slot x='🖕' y='🖕' z='🖕'  />
 <Slot x='🦕' y='😄' z='🎉' /> */}
+
 {/* <Counter /> */}
 {/* <Time />
 <Forms /> */}

@@ -150,3 +150,56 @@ font-weight: bold;
     font-size: 20px;
     font-weight: bold;
 }
+.hha{
+    background-color: darkred;
+    color: white;
+    height: 68px;
+    padding-top: 17px;
+    /* margin-top: 148px; */
+}
+
+.btnin{
+    width: 113px;
+    height: 37px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 14px;
+    outline: none;
+    margin-right: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.ffl{
+    width: 209px;
+    margin-left: 10px;
+    display: contents;
+}
+.bvc{
+    border-radius: 21px;
+    height: 50px;
+    background-color: darkred !important;
+}
+.listbb{
+
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+.delle{
+    font-size: 30px !important;
+    color: black;
+}
+
+.delle :hover{
+    color: darkred;
+}
+.nzx{
+    background-color: white;
+    border: none;
+    outline: none;
+}
